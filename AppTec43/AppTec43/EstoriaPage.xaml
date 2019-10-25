@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTec43.EstoriaPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <!--CABEÇALHO-->
+            <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="Gray" VerticalOptions="Start" HeightRequest="100"/>
+            <FlexLayout Grid.Row="0" Grid.Column="0"  Margin="16,50,16,16" Direction="Column" AlignItems="Center">
+                <Frame HeightRequest="96" WidthRequest="96" CornerRadius="48" IsClippedToBounds="True" Margin="0" Padding="0">
+                    <Image Source="http://placeimg.com/96/96/animals" x:Name="vFoto"/>
+                </Frame>
+                <Label Text="Nome" HorizontalOptions="FillAndExpand" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" x:Name="vNome"/>
+            </FlexLayout>
+            <!--CORPO-->
+            <StackLayout Grid.Row="1" Grid.Column="0" VerticalOptions="FillAndExpand" Padding="16">
+                <Label Text="Conte a Estória deste aluno:"/>
+                <Entry HeightRequest="300" MinimumWidthRequest="380" Placeholder="Escreva a Estória" x:Name="vEstoria"/>
+            </StackLayout>
+            <!--RODAPÉ-->
+            <StackLayout Grid.Row="2" Grid.Column="0" Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="CenterAndExpand" Padding="8">
+                <Button Text="Narrar" x:Name="btnNarrar" Clicked="BtnNarrar_Clicked"/>
+                <Button Text="Limpar" x:Name="btnLimpar"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
