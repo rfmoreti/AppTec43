@@ -16,6 +16,7 @@ namespace AppTec43
 		public TurmaPage ()
 		{
 			InitializeComponent ();
+           
 		}       
 
         private void BtnAluno11_Clicked(object sender, EventArgs e)

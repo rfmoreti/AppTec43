@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppTec43.TurmaPage">
+             x:Class="AppTec43.TurmaPage"
+             Title="Técnico em Informática"> 
     <ContentPage.Content>
         <StackLayout Spacing="4" HorizontalOptions="CenterAndExpand">
             <Label Text="Senac" FontSize="Small"/>
-            <BoxView HeightRequest="2"   Margin="0,4,280,4" Color="Black"/>
-            <Label Text="Técnico em Informática" FontSize="Medium" FontAttributes="Bold" TextDecorations="Underline"/>
+            <BoxView HeightRequest="2"   Margin="0,4,280,4" Color="Black"/>            
             <Label Text="Turma 43" FontSize="Micro" FontAttributes="Italic"/>
-            <Grid RowSpacing="8" ColumnSpacing="8" Margin="16,32,16,16" >
+            <Grid RowSpacing="8" ColumnSpacing="8" Margin="16,32,16,16">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>

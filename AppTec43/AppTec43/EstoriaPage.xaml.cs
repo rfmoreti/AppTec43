@@ -20,17 +20,17 @@ namespace AppTec43
                 case "Aluno1":
                     vNome.Text = "Espiga";
                     vFoto.Source = "https://i.ibb.co/TtQRmWC/espiga.jpg";
-                    vEstoria.Text = "Jaci";
+                    vEstoria.Text = "Aaah mano, para, acabei de chegar Jaci, mano.";
                     break;
                 case "Aluno2":
                     vNome.Text = "Lucas Hardware";
                     vFoto.Source = "https://i.ibb.co/RDjy8BZ/lucas.jpg";
-                    vEstoria.Text = "Se eu fosse PM";
+                    vEstoria.Text = "Se eu fosse PM não ia ter isso não";
                     break;
                 case "Aluno3":
                     vNome.Text = "Moreti";
                     vFoto.Source = "https://i.ibb.co/qgCjDqf/moreti.jpg";
-                    vEstoria.Text = "Humor, piada, hahaha";
+                    vEstoria.Text = "Um rapaz com o senso de humor um pouco diferenciado";
                     break;
                 case "Aluno4":
                     vNome.Text = "Paulo Gibóia";
@@ -45,12 +45,12 @@ namespace AppTec43
                 case "Aluno6":
                     vNome.Text = "Rafael Valério";
                     vFoto.Source = "https://i.ibb.co/1Tqzmjs/valerio.jpg";
-                    vEstoria.Text = "Programador Real";
+                    vEstoria.Text = "O foda que é foda, cara";
                     break;
                 case "Aluno7":
                     vNome.Text = "Seninha";
                     vFoto.Source = "https://i.ibb.co/9GvWMsw/seninha.jpg";
-                    vEstoria.Text = "Reencarnação do Ayrton";
+                    vEstoria.Text = "Só mais uma coisa. Uma salva de palmas, por favor";
                     break;
                 case "Aluno8":
                     vNome.Text = "Uzias";
@@ -65,12 +65,12 @@ namespace AppTec43
                 case "Aluno10":
                     vNome.Text = "Yan";
                     vFoto.Source = "https://i.ibb.co/YDPLNjk/yan.jpg";
-                    vEstoria.Text = "Hacker real";
+                    vEstoria.Text = "Pô cara, nada a comentar";
                     break;
                 case "Aluno11":
                     vNome.Text = "Yuri";
                     vFoto.Source = "https://i.ibb.co/1sjJb71/yuri.jpg";
-                    vEstoria.Text = "Otaku";
+                    vEstoria.Text = "Otaku mais otaku do noroeste paulista da região de José Bonifácio";
                     break;
                 default:
                     break;
